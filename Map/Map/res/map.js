@@ -30,6 +30,12 @@ function initialize()
 	});
 }
 
+//スクリプトエラーポップアップを抑止
+function noError() {
+    return true;
+}
+window.onerror = noError;
+
 /**
  * 現在位置の緯度・経度を取得してマネージ コードへ設定します。
  */
