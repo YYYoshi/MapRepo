@@ -11,7 +11,7 @@ namespace Map
         {
         }
 
-        private string _uri = String.Format("file://{0}GeoJsonLoad.html", AppDomain.CurrentDomain.BaseDirectory);
+        private string _uri = String.Format("file://{0}res\\index.html", AppDomain.CurrentDomain.BaseDirectory);
         public string Uri
         {
             get { return _uri; }

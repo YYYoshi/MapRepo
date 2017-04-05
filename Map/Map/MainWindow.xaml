@@ -20,9 +20,11 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <TextBox Grid.Column="0" Margin="8,8,4,8" Text="{Binding Address}" />
             <Button Grid.Column="1" Width="64" Margin="4,8,4,8" Command="{Binding OnClickGoButton}" Click="Button_Click">移動！</Button>
+            <Button Grid.Column="2" Width="64" Margin="4,8,4,8" Click="Button_Click_1">ルート！</Button>
         </Grid>
 
         <!-- ブラウザ ( Google Maps 表示 ) -->

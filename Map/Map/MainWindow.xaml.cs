@@ -20,5 +20,10 @@ namespace Map
             // JavaScript の関数を呼び出す。
             this._webBrowser.InvokeScript("moveMap", context.Address);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this._webBrowser.InvokeScript("initialize");
+        }
     }
 }
