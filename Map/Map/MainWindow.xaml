@@ -26,6 +26,6 @@
         </Grid>
 
         <!-- ブラウザ ( Google Maps 表示 ) -->
-        <WebBrowser x:Name="_webBrowser" Grid.Row="1" Margin="8,0,8,8" local:WebBrowserBehavior.ObjectForScripting="{Binding MapHost}" local:WebBrowserUtility.BindableSource="{Binding Uri}" />
+        <WebBrowser x:Name="_webBrowser" Grid.Row="1" Margin="8,0,8,8" local:WebBrowserUtility.ObjectForScripting="{Binding MapHost}" local:WebBrowserUtility.BindableSource="{Binding Uri}" />
     </Grid>
 </Window>
